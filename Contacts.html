@@ -1,0 +1,367 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Contacts</title>
+
+    <link href="images/Logo.png" rel="icon">
+    <link href="images/Logo.png" rel="apple-touch-icon">
+
+
+    <!-- CSS FILES -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <link href="css/bootstrap-icons.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <link href="css/contacts.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+
+
+</head>
+
+<body>
+          <style>
+                 body, html {
+                  height: 100%;
+                  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif, sans-serif;
+                }
+         </style>
+    <header class="site-header">
+        <div class="container">
+            <div class="row">
+                
+                <div class="col-lg-8 col-12 d-flex flex-wrap text-black">
+                    <p class="d-flex me-4 mb-0">
+                        <i class="bi-geo-alt me-2 black"></i>
+                        Kigamboni, Tanzania
+                    </p>
+
+                    <p class="d-flex mb-0">
+                        <i class="bi-envelope me-2"></i>
+
+                        <a href="mailto:info@wnctanzania.org">
+                                    info@wnctanzania.org
+                        </a>
+                    </p>
+                </div>
+
+                <div class="col-lg-3 col-12 ms-auto d-lg-block d-none">
+                    <ul class="social-icon">
+                        
+                        <li class="social-icon-item">
+                            <a href="https://www.facebook.com/W.N.C.Tanzania?mibextid=rS40aB7S9Ucbxw6v" class="social-icon-link bi-facebook"></a>
+                        </li>
+
+                        <li class="social-icon-item">
+                            <a href="https://www.instagram.com/wnc_org?igsh=MWN4dWRoOTQxNjVqeg==" class="social-icon-link bi-instagram"></a>
+                        </li>
+
+    
+                        <li class="social-icon-item">
+                            <a href="https://wa.me/255687950511" class="social-icon-link bi-whatsapp"></a>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </header>
+    <nav class="navbar navbar-expand-lg bg-light shadow-lg">
+            <div class="container">
+                <a class="navbar-brand" href="/">
+             
+                        Winning Nature In Charisma
+                        <small>Non-profit Organization</small>
+                </a>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+              
+                <div class="collapse navbar-collapse " id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item ">
+                            <a class="nav-link" href="/">Home</a>
+                        </li>
+                     
+                        <li class="nav-item">
+                            <a class="nav-link " href="https://wnctanzania.org/Projects">Projects</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link " href="https://wnctanzania.org/Resources">Resources </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="https://wnctanzania.org/Contacts">Contact Us</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://wnctanzania.org/stories">Stories</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+<main>   
+    <style>
+        .container-contact {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        h1 {
+            text-align: center;
+            margin-bottom: 20px;
+            font-size:40px;
+        }
+
+        h2 {
+            font-size:30px;
+        }
+        .contact-info, .contact-form, .map {
+            margin-bottom: 10px;
+        }
+        .contact-info {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+        .contact-info div {
+            flex: 1;
+            padding: 10px;
+            max-width: 45%;
+        }
+        .contact-info h2 {
+            margin-bottom: 10px;
+            font-size:30px;
+        }
+        .contact-info p {
+            font-size:15px;
+            color:black;
+            font-weight: 900;
+        }
+        .contact-info p i {
+            color: #d79922;
+            margin-right: 10px;
+        }
+       
+        .contact-form form {
+            display: flex;
+            flex-direction: column;
+            
+        }
+        .contact-form input, .contact-form textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .contact-form button {
+            padding: 10px 20px;
+            background-color: #d79922;
+            color: white;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        .contact-form button:hover {
+            background-color: #df9918;
+            color: black;
+            font-weight: bold;
+        }
+
+
+        .message { padding: 10px; margin-bottom: 15px; }
+        .success { background-color: #d4edda; color: #155724; }
+        .error { background-color: #f8d7da; color: #721c24; }
+
+        /* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+  h2 {
+    font-size: 20px;
+  }
+
+  p {
+    font-size: 10px;
+  }
+
+  .card {
+    padding: 15px;
+    max-width: 90%; /* Adjust card width on tablets */
+   
+
+    
+  }
+
+  .contact-info {
+         flex-direction: column;
+
+         margin-left: 15px;       
+        }
+}
+
+@media (max-width: 480px) {
+  h2 {
+    font-size: 18px;
+  }
+
+  p {
+    font-size: 8px;
+  }
+
+  .card {
+    padding: 10px;
+    max-width: 100%; /* Adjust card width on small devices */
+    
+  }
+}
+
+    </style>
+<section>
+    
+    <div class="container-contact">
+        <h1>Contact Us</h1>
+        
+        <!-- Contact Information Section -->
+        <div class="contact-info">
+            <div>
+                <h2>Our Location</h2>
+                <p><i class="   fas fa-map-marker-alt"></i> Kigamboni, Dar es Salaam, Tanzania</p>
+            </div>
+            <div>
+                <h2>Contact Information</h2> 
+                <p><i class=" fas fa-phone"></i> +255(0) 687-950-511</p>
+                <p><i class="  fas fa-envelope"></i> info@wnctanzania.org</p>
+            </div>
+        </div>
+        
+    
+        <!-- Contact Form Section -->
+        <div class="contact-form">
+            <h2><i class="fas fa-envelope"></i> Send Us a Message</h2>
+            <form action="contact.php" method="post">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="message" rows="6" placeholder="Your Message" required></textarea>
+                <button type="submit">Submit</button>
+            </form> 
+        
+        </div>
+    </div>
+ </section>
+</main>
+<footer class="site-footer" id="contact">
+    <div class="container">
+        <div class="row">
+    
+            <div class="col-lg-6 ">
+                <h5 class="site-footer-title ">Quick Links</h5>
+
+                <ul class="footer-menu">
+                    <li class="footer-menu-item"><a href="https://wnctanzania.org/Projects" class="footer-menu-link">Projects</a></li>
+
+                    <li class="footer-menu-item"><a href="https://wnctanzania.org/#section_2" class="footer-menu-link">About Us</a></li>
+                    <li class="footer-menu-item"><a href="https://wnctanzania.org/resources" class="footer-menu-link">Resources</a></li>
+                    <li class="footer-menu-item"><a href="https://wnctanzania.org/gallery" class="footer-menu-link">Gallery</a></li>
+                
+                   
+                </ul>
+            </div>
+            <div class="col-lg-6 col-md-6 col-12 mx-auto">
+                <h5 class="site-footer-title mb-3">Contact Infomation</h5>
+
+                <p class="text-white d-flex mb-2">
+                    <i class="bi-telephone me-2"></i>
+
+                    <a href="tel: 120-240-9600" class="site-footer-link">
+                        +255 687 950 511
+                    </a>
+                </p>
+                <p class="text-white d-flex mb-2">
+                    <i class="bi-telephone me-2"></i>
+
+                    <a href="tel: 120-240-9600" class="site-footer-link">
+                        +255 747 126 542
+                    </a>
+                </p>
+
+                <p class="text-white d-flex">
+                    <i class="bi-envelope me-2"></i>
+
+                    <a href="mailto: info@wnctanzania.org" class="site-footer-link">
+                        info@wnctanzania.org
+                    </a>
+                </p>
+
+                <p class="text-white d-flex mt-3">
+                    <i class="bi-geo-alt me-2"></i>
+                    Kigamboni,Tanzania
+                </p>
+
+
+            </div>
+        </div>
+    </div>
+
+    <div class="site-footer-bottom">
+        <div class="container">
+            <div class="row">
+
+                
+                
+                <div class="col-lg-12 col-md-6 col-12 d-flex justify-content-center align-items-center mx-auto">
+                    <ul class="social-icon">
+                        
+
+                        <li class="social-icon-item">
+                            <a href="https://www.facebook.com/W.N.C.Tanzania?mibextid=rS40aB7S9Ucbxw6v" class="social-icon-link bi-facebook"></a>
+                        </li>
+
+                        <li class="social-icon-item">
+                            <a href="https://www.instagram.com/wnc_org?igsh=MWN4dWRoOTQxNjVqeg==" class="social-icon-link bi-instagram"></a>
+                        </li>
+
+                        <li class="social-icon-item">
+                            <a href="https://www.linkedin.com/in/winning-nature-in-charisma-wnc-org-40ab932b5" class="social-icon-link bi-linkedin"></a>
+                        </li>
+
+                                                    </ul>
+                </div>
+                
+                <div class="col-lg-12 col-md-6 col-12 d-flex justify-content-center align-items-center mx-auto">
+                     &copy;<strong>Winning Nature In Charisma</strong> 
+                    
+                </div>
+               
+            
+            </div>
+        </div>
+    </div>
+</footer>
+
+    <!-- JAVASCRIPT FILES -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.sticky.js"></script>
+    <script src="js/click-scroll.js"></script>
+    <script src="js/counter.js"></script>
+    <script src="js/custom.js"></script>
+    <script>
+        // Clear the form when message is successfully sent
+        document.addEventListener("DOMContentLoaded", function() {
+            document.getElementById("contactForm").reset();
+        });
+    </script>
+
+</body>
+
+</html>
